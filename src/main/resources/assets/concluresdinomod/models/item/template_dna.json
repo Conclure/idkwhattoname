@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "concluresdinomod:item/dna_primary",
+    "layer1": "concluresdinomod:item/dna_secondary"
+  }
+}

@@ -1,0 +1,29 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.triceratops_adult",
+				"texture_width": 16,
+				"texture_height": 16,
+				"visible_bounds_width": 7,
+				"visible_bounds_height": 5.5,
+				"visible_bounds_offset": [0, 2.25, 0]
+			},
+			"bones": [
+				{
+					"name": "bb_main",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-47, 22, -24], "size": [48, 48, 48], "uv": [0, 0]},
+						{"origin": [1, 24, -23], "size": [48, 44, 46], "uv": [0, 0]},
+						{"origin": [17, 0, -34], "size": [18, 44, 18], "uv": [0, 0]},
+						{"origin": [17, 0, 16], "size": [18, 44, 18], "uv": [0, 0]},
+						{"origin": [-39, 0, -34], "size": [18, 44, 18], "uv": [0, 0]},
+						{"origin": [-39, 0, 16], "size": [18, 44, 18], "uv": [0, 0]}
+					]
+				}
+			]
+		}
+	]
+}

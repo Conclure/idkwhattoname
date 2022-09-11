@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "concluresdinomod",
+  "version": "${version}",
+
+  "name": "Example Mod",
+  "description": "This is an example description! Tell everyone what your mod is about!",
+  "authors": [
+    "Me!"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/concluresdinomod/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "me.conclure.concluresdinomod.ExampleMod"
+    ],
+    "client": [
+      "me.conclure.concluresdinomod.ClientInit"
+    ]
+  },
+  "mixins": [
+    "modid.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.13.3",
+    "fabric": "*",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

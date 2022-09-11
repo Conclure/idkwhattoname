@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "concluresdinomod:item/dna_unidentified_triassic"
+  }
+}

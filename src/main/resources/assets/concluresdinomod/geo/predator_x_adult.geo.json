@@ -1,0 +1,28 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.pliosaurus",
+				"texture_width": 512,
+				"texture_height": 512,
+				"visible_bounds_width": 18,
+				"visible_bounds_height": 4,
+				"visible_bounds_offset": [0, 1, 0]
+			},
+			"bones": [
+				{
+					"name": "bb_main",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-10, 0, -118], "size": [18, 8, 40], "pivot": [-2, 8, -77], "rotation": [7.5, 0, 0], "uv": [146, 0]},
+						{"origin": [-10, 8, -118], "size": [18, 8, 40], "pivot": [-2, 8, -78], "rotation": [-20, 0, 0], "uv": [100, 124]},
+						{"origin": [-9, 0, -78], "size": [16, 16, 32], "uv": [0, 0]},
+						{"origin": [-9, 0, 62], "size": [16, 16, 68], "uv": [0, 124]},
+						{"origin": [-10, 0, -46], "size": [19, 16, 108], "uv": [0, 0]}
+					]
+				}
+			]
+		}
+	]
+}
